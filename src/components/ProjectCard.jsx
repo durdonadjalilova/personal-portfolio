@@ -1,8 +1,8 @@
-import react from 'react';
+import React from 'react';
 
 const ProjectCard = (props) =>(
     <div>
-
+        
     </div>
 )
 
