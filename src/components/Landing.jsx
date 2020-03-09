@@ -7,7 +7,7 @@ const Landing = () => (
     <div className='landing'>
         <h2>Hi, my name is</h2>
         <h1 className='name'>Suzette Islam</h1>
-        <Link to='about'>Welcome -></Link>
+        <Link to='/suzette'>Welcome -></Link>
     </div>
 )
 
