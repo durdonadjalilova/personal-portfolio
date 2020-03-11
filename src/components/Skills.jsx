@@ -1,8 +1,9 @@
-import react from 'react'
-import { DefaultSerializer } from 'v8'
+import React from 'react'
 
 const Skills = () => (
-<div></div>
+    <div>
+        
+    </div>
 )
 
 export default Skills
