@@ -1,11 +1,26 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
-.name{
-  color: #1A3A3A;
-}
 
 .landing{
   width: 1fr;
+  background-color: beige;
+  color:black;
+  /* font-family: 'Bebas Neue', cursive; */
+}
+.name{
+  color: red;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 120px;
+}
+.contact{
+  border: 1px black solid;
+}
+.main {
+  text-align: center;
+}
+
+.aboutMe{
+
 }
