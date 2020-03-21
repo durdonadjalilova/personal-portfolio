@@ -5,9 +5,8 @@ import {Link} from 'react-router-dom'
 
 const Landing = () => (
     <div className='landing'>
-        <h2>Hi, my name is</h2>
-        <h1 className='name'>Suzette Islam</h1>
-        <Link to='/suzette'>Welcome -></Link>
+        <h1 className='name'>Suzette</h1>
+        <Link to='/portfolio`'><button>Welcome</button></Link>
     </div>
 )
 
