@@ -1,5 +1,6 @@
-.App {
+.App, body {
   text-align: center;
+  height:100%;
 }
 
 /* nav {
@@ -33,22 +34,23 @@ nav ul li a{
 }
 .intro{
   font-family: 'Bebas Neue', cursive;
-  font-size: 25px;
+  font-size: 30px;
   color:black;
-  text-shadow: -1px 1px 0 #ff521b
-  1px 1px 0 #ff521b,
- 1px -1px 0 #ff521b,
--1px -1px 0 #ff521b;
+  text-shadow: -1.5px 0 white, 0 1.5px white, 1.5px 0 white, 0 -1.5px white;
 }
 
 .main {
   text-align: center;
 }
 
+.header{
+  height: fit-content;
+  ;
+}
 .aboutSection{
 display:flex;
 flex-direction: row;
-height: 80vh;
+height: 100vh;
 background-color: #ff521b;
 color:white;
 border-top: black solid 2px;
@@ -73,6 +75,12 @@ border-top: black solid 2px;
   width: 50%;
 }
 
+.projectsSection{
+  margin:0;
+  background-color: #EFC88B;
+  height: 100vh;
+
+}
 .skillsIcon{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -83,7 +91,7 @@ border-top: black solid 2px;
 .contactSection{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  background-color: #7C7C7C;
+  background-color:  #7C7C7C;
   height: 70vh;
 }
 
