@@ -1,26 +1,95 @@
-/* .App {
+.App {
   text-align: center;
+}
+
+/* nav {
+  width: 100%;
+  position: sticky;
+  top:0;
+}
+
+nav label, #hamburger{
+  display:inline-block;
+}
+
+nav ul{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+nav ul li{
+  display:block;
+  padding: 10px;
+}
+
+nav ul li a{
+  color:#ff521b;
+  text-decoration: none;
 } */
-
-
-.landing{
-  width: 1fr;
-  background-color: beige;
-  color:black;
-  /* font-family: 'Bebas Neue', cursive; */
+.icon{
+  width: auto;
+  height: 200px;
 }
-.name{
-  color: red;
+.intro{
   font-family: 'Bebas Neue', cursive;
-  font-size: 120px;
+  font-size: 25px;
+  color:black;
+  text-shadow: -1px 1px 0 #ff521b
+  1px 1px 0 #ff521b,
+ 1px -1px 0 #ff521b,
+-1px -1px 0 #ff521b;
 }
-.contact{
-  border: 1px black solid;
-}
+
 .main {
   text-align: center;
 }
 
-.aboutMe{
+.aboutSection{
+display:flex;
+flex-direction: row;
+height: 80vh;
+background-color: #ff521b;
+color:white;
+border-top: black solid 2px;
+} 
+
+.aboutImg{
+  margin-top: 10%;
+  text-align: center;
+  width: 50%;
+}
+
+.aboutImg img {
+  width:600px;
+  height:auto;
+  border-radius: 50%;
+  border: solid white 3px;
+  
+}
+
+.aboutTxt {
+  text-align: center;
+  width: 50%;
+}
+
+.skillsIcon{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  grid-gap:auto;
+}
+
+.contactSection{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #7C7C7C;
+  height: 70vh;
+}
+
+.contactText{
+  color:white;
+  font-size: 50px;
+
 
 }
