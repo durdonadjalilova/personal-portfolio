@@ -1,6 +1,6 @@
 import React from 'react'
 import Selfie from '../additional/selfie.jpeg'
-import { Link } from 'react-router-dom'
+import { Switch, Route, Link } from 'react-router-dom'
 import Resume from '../additional/resume.pdf'
 
 const About = () => (
@@ -12,13 +12,13 @@ const About = () => (
             </div>
             <div className='aboutTxt'>
                 <p>I am a full stack web developer based in NYC.</p>
-                <p>con</p>
-                <p>lksd</p>
+                {/* <p>con</p>
+                <p>lksd</p> */}
 
                 <div className='links'>
-                    <Link>GitHub</Link>
-                    <Link>LinkedIn</Link>
-                    <Link to={Resume}>Resume</Link>
+                    <a style={{ display: "table-cell" }} href="https://www.github.com/sislam16" target="_blank">Github</a>
+                    <a style={{ display: "table-cell" }} href="https://www.linkedin.com/in/suzetteislam" target="_blank">LinkedIn</a>
+                    <a style={{ display: "table-cell" }} href={Resume} target="_blank">Resume</a>
                 </div>
 
             </div>
