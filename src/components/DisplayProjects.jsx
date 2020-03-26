@@ -9,7 +9,7 @@ import React from 'react'
 
 // }
 const DisplayProjects = () =>(
-    <div>
+    <div className='projectsSection'>
         <h1>PROJECTS</h1>
     </div>
 )
