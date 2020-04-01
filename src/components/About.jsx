@@ -17,14 +17,15 @@ const About = () => (
                 <p>lksd</p> */}
 
                 <div className='links'>
+                    <p>hi</p>
 
                     {/* <i class="fab fa-github" hred='https://www/github.com/sislam16' target='_blank'></i> */}
 
 
-                    <a href="https://www.github.com/sislam16" target="_blank" className='aboutIcon'><FontAwesomeIcon className='icon' icon={['fab', 'github']} /></a>
+                    {/* <a href="https://www.github.com/sislam16" target="_blank" className='aboutIcon'><FontAwesomeIcon className='icon' icon={['fab', 'github']} /></a>
                     <a href="https://www.linkedin.com/in/suzetteislam" target="_blank" className='aboutIcon'><i className="fab fa-linkedin"></i></a>
                     <a href={Resume} target="_blank" className='aboutIcon'><i className="fas fa-file-alt"></i></a>
-                </div>
+            */}</div> 
 
             </div>
         </div>
