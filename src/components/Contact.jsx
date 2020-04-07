@@ -1,9 +1,9 @@
 import React from 'react'
 
 const Contact = () => (
-    <div className='contactSection'>
+    <div className='contactSection' id='contact'>
         <div className='contactText'>
-            <p>Contact me! Please fill out the form with your message or reach me at suzetteislam@gmail.com and I'll get back as soon as possible.</p>
+            <p>Contact me! <br></br>Please fill out the form with your message or reach me at suzetteislam@gmail.com.</p>
         </div>
         <form className='contact' action="https://formspree.io/xoqlkzqz" method="POST">
             <label for='name'>Name:</label>

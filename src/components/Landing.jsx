@@ -1,12 +1,19 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
+import Selfie from '../additional/selfie.jpeg'
 
 
 
 const Landing = () => (
-    <div className='landing'>
-        <h1 className='name'>Suzette</h1>
-        <Link to='/portfolio`'><button>Welcome</button></Link>
+    <div className='landing' id='landing'>
+        <div className='opening'> 
+            <div className='intro'><h1>Hi! My name is...</h1></div>
+            <div className='suzette'><h1>Suzette Islam</h1></div>
+        </div>
+
+        <div className='aboutImg'>
+                <img src={Selfie} />
+            </div>
+        <a href='#about' >about</a>
     </div>
 )
 

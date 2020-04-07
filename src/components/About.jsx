@@ -1,18 +1,18 @@
 import React from 'react'
-import Selfie from '../additional/selfie.jpeg'
 import { Switch, Route, Link } from 'react-router-dom'
 import Resume from '../additional/resume.pdf'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+import Skyline from '../additional/nyc.png'
+
 const About = () => (
     
-        <div className='aboutSection'>
-        <div className='intro'><h1>Hi! My name is Suzette.</h1></div>
-            <div className='aboutImg'>
-                <img src={Selfie} />
-            </div>
+        <div className='aboutSection' id='about'>
+            
             <div className='aboutTxt'>
-                <p>I am a full stack web developer based in NYC.</p>
+                <p>I'm a full stack web developer based in New York City. Coding is a new form of art and software engineers are the modern day artist. 
+                    
+                </p>
                 {/* <p>con</p>
                 <p>lksd</p> */}
 
@@ -24,10 +24,13 @@ const About = () => (
 
                     {/* <a href="https://www.github.com/sislam16" target="_blank" className='aboutIcon'><FontAwesomeIcon className='icon' icon={['fab', 'github']} /></a>
                     <a href="https://www.linkedin.com/in/suzetteislam" target="_blank" className='aboutIcon'><i className="fab fa-linkedin"></i></a>
-                    <a href={Resume} target="_blank" className='aboutIcon'><i className="fas fa-file-alt"></i></a>
-            */}</div> 
+                    <a href={Resume} target="_blank" className='aboutIcon'><i className="fas fa-file-alt"></i></a> */}
+           </div> 
 
             </div>
+            <a href='#projects'>Projects</a>
+            <img src = {Skyline} id='skyline'/>
+
         </div>
 )
 

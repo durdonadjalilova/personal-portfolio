@@ -1,86 +1,68 @@
 .App, body {
   text-align: center;
   height:100%;
+  font-family: sans-serif;
 }
-
-/* nav {
-  width: 100%;
-  position: sticky;
-  top:0;
+.landing{
+  border: 1px solid black;
+  width: 100vw;
+  height: 100vh;
+  background-color: #26547C;
 }
-
-nav label, #hamburger{
-  display:inline-block;
-}
-
-nav ul{
-  list-style-type: none;
-  margin:0;
-  padding:0;
-}
-
-nav ul li{
-  display:block;
-  padding: 10px;
-}
-
-nav ul li a{
-  color:#ff521b;
-  text-decoration: none;
-} */
 .icon{
   width: auto;
   height: 200px;
 }
 .intro{
-  font-family: 'Bebas Neue', cursive;
+  color:black;;
+}
+.suzette{
+  font-family: sans-serif;
   font-size: 30px;
   color:black;
-  text-shadow: -1.5px 0 white, 0 1.5px white, 1.5px 0 white, 0 -1.5px white;
+  /* text-shadow: -1.5px 0 #26547C, 0 1.5px #26547C, 1.5px 0 #26547C, 0 -1.5px #26547C; */
 }
-
-.main {
-  text-align: center;
-}
-
-.header{
-  height: fit-content;
-  ;
-}
-.aboutSection{
-display:flex;
-flex-direction: row;
-height: 100vh;
-background-color: #ff521b;
-color:white;
-border-top: black solid 2px;
-} 
 
 .aboutImg{
-  margin-top: 10%;
-  text-align: center;
+  /* margin-top: 10%; */
+ 
   width: 50%;
 }
-
 .aboutImg img {
   width:600px;
-  height:auto;
+  /* height:auto;
   border-radius: 50%;
-  border: solid white 3px;
+  border: solid white 3px; */
   
 }
+
+.aboutSection{
+  text-align: center;
+/* display:flex;
+flex-direction: row; */
+height: 100vh;
+color:black;
+border: black solid 2px;
+} 
+
 
 .aboutTxt {
   text-align: center;
   width: 50%;
 }
 
+#skyline{
+  width: 100vw;
+  margin-bottom:0%;
+}
 .projectsSection{
+  border:1px purple solid;
   margin:0;
-  background-color: #EFC88B;
+  background-color: #f4a261;
   height: 100vh;
 
 }
+
 .skillsIcon{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -89,15 +71,33 @@ border-top: black solid 2px;
 }
 
 .contactSection{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  background-color:  #7C7C7C;
-  height: 70vh;
+  border: 1px black solid;
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+  background-color:  white;
+  height: 95vh;
 }
 
 .contactText{
-  color:white;
-  font-size: 50px;
+  color:black;
+  font-size: 25px;
+}
 
+.footer{
+  display: flex;
+  justify-content: space-between; 
+  background-color:#7C7C7C;
+  position: absolute;
+  margin-bottom: 0;
+  width: 100%;
+  height: 5vh;
+}
+#si{
+  padding-left: 10px;
+  height:4vh;
+}
 
+.footer h3{
+  padding-right: 10px;
+  padding-bottom: 4px;
 }

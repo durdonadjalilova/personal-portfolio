@@ -9,8 +9,10 @@ import React from 'react'
 
 // }
 const DisplayProjects = () =>(
-    <div className='projectsSection'>
+    <div className='projectsSection' id='projects'>
         <h1>PROJECTS</h1>
+
+        <a href ='#skills'>Skills</a>
     </div>
 )
 
