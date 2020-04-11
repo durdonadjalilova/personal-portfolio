@@ -14,12 +14,12 @@
   height: 200px;
 }
 .intro{
-  color:black;;
+  color:white;
 }
 .suzette{
   font-family: sans-serif;
   font-size: 30px;
-  color:black;
+  color:white;
   /* text-shadow: -1.5px 0 #26547C, 0 1.5px #26547C, 1.5px 0 #26547C, 0 -1.5px #26547C; */
 }
 
@@ -37,6 +37,8 @@
 }
 
 .aboutSection{
+  /* display: flex;
+  flex-wrap:wrap; */
   text-align: center;
 /* display:flex;
 flex-direction: row; */
@@ -53,22 +55,38 @@ border: black solid 2px;
 
 #skyline{
   width: 100vw;
+  height:auto;
   margin-bottom:0%;
+  /* align-items: flex-end; */
 }
+
 .projectsSection{
   border:1px purple solid;
   margin:0;
-  background-color: #fadd67;
   height: 100vh;
 
 }
+.skillsSection {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
 
+.skillsText{
+  background-color: #fadd67;
+  height: 100vh;
+}
 .skillsIcon{
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  grid-gap:auto;
+  padding-left: 40px;
 }
+.skill{
+  width: 60%;
+}
+
+
 
 .contactSection{
   border: 1px black solid;
