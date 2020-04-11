@@ -7,7 +7,7 @@
   border: 1px solid black;
   width: 100vw;
   height: 100vh;
-  background-color: #26547C;
+  background-color: #cc5f4a;
 }
 .icon{
   width: auto;
@@ -58,7 +58,7 @@ border: black solid 2px;
 .projectsSection{
   border:1px purple solid;
   margin:0;
-  background-color: #f4a261;
+  background-color: #fadd67;
   height: 100vh;
 
 }
@@ -74,7 +74,8 @@ border: black solid 2px;
   border: 1px black solid;
   /* display: grid;
   grid-template-columns: repeat(2, 1fr); */
-  background-color:  white;
+  /* background-color:  white; */
+  background-color: #a3ab50;
   height: 95vh;
 }
 
@@ -83,10 +84,14 @@ border: black solid 2px;
   font-size: 25px;
 }
 
+.formholder{
+  width: 60vw;
+  height: 60vh;
+}
 .footer{
   display: flex;
   justify-content: space-between; 
-  background-color:#7C7C7C;
+  background-color:rgb(169, 167, 167);
   position: absolute;
   margin-bottom: 0;
   width: 100%;
