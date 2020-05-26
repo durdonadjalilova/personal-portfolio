@@ -1,18 +1,26 @@
 import React from 'react'
+import projects from './Projects'
 
-// componentDidMount(){
-//     this.createCard()
-// }
-// const createCard = () =>{
-//     const {projects} = this.props
-//     console.log(projects)
 
-// }
-const DisplayProjects = () =>(
+const cards = projects.map(el => {
+   return (
+        <div>
+            <h2>{el.title}</h2>
+            <p>{el.description}</p>
+            <a href={el.github}>GitHub</a>
+            <a href={el.live}>Live</a>
+        </div>
+
+    )
+})
+
+const DisplayProjects = () => (
     <div className='projectsSection' id='projects'>
         <h1>PROJECTS</h1>
-
-        <a href ='#skills'>Skills</a>
+        <p>
+            {cards}
+        </p>
+        <a href='#skills'>Skills</a>
     </div>
 )
 
