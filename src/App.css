@@ -7,7 +7,7 @@
   border: 1px solid black;
   width: 100vw;
   height: 100vh;
-  background-color: #cc5f4a;
+  background-color: #4169e1;
 }
 .icon{
   width: auto;
@@ -73,7 +73,7 @@ border: black solid 2px;
 }
 
 .skillsText{
-  background-color: #fadd67;
+  background-color: rgb(169, 167, 167);
   height: 100vh;
 }
 .skillsIcon{
@@ -93,7 +93,7 @@ border: black solid 2px;
   /* display: grid;
   grid-template-columns: repeat(2, 1fr); */
   /* background-color:  white; */
-  background-color: #a3ab50;
+  background-color: #4169e1;
   height: 95vh;
 }
 
