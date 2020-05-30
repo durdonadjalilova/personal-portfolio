@@ -6,10 +6,12 @@ import Contact from './components/Contact';
 import DisplayProjects from './components/DisplayProjects';
 import Landing from './components/Landing';
 import Slogo from './additional/si.png';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <div className="App">
+      <NavBar />
       <Landing />
       <About />
       <DisplayProjects />

@@ -3,9 +3,9 @@ import { Link, Route } from 'react-router-dom'
 
 const NavBar = () => (
     <div>
-        <nav>
-            <label htmlFor="hamburger">&#9776;</label>
-            <input type="checkbox" id='hamburger' />
+        <nav className='nav'>
+            {/* <label htmlFor="hamburger">&#9776;</label>
+            <input type="checkbox" id='hamburger' /> */}
             
             <ul>
                 <li><Link>About</Link></li>
