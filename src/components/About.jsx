@@ -10,9 +10,7 @@ const About = () => (
         <div className='aboutSection' id='about'>
             
             <div className='aboutTxt'>
-                <p>I'm a full stack web developer based in New York City. Coding is a new form of art and software engineers are the modern day artist. 
-                    
-                </p>
+                <p>I'm a full stack web developer based in New York City. </p>
                 {/* <p>con</p>
                 <p>lksd</p> */}
 
@@ -30,7 +28,6 @@ const About = () => (
             </div>
             <a href='#projects'>Projects</a>
             <img src = {Skyline} id='skyline'/>
-
         </div>
 )
 
