@@ -16,6 +16,12 @@ const projects = [
         description: 'A search engine for memes. Users will be able to make posts with their meme of choice and have it saved to a local database.',
         github:'',
         live:'#'
+    }, 
+    {
+        title: 'Pantry Party', 
+        description: 'A live stream cooking application where users can upload recipes and host a virutal show.',
+        github:'https://www.github.com/sislam16/Pantry-Party',
+        live:'#'
     }
 
 ]
