@@ -4,22 +4,23 @@ import Skills from './components/Skills';
 import About from './components/About';
 import Contact from './components/Contact';
 import DisplayProjects from './components/DisplayProjects';
-import Landing from './components/Landing';
 import Slogo from './additional/si.png';
 import NavBar from './components/NavBar';
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <Landing />
+      <div className='landing' id='landing'>
+        <h1 id='greeting'> Hey! I'm Suzette.</h1>
+      </div>
+      
       <About />
       <DisplayProjects />
       <Skills />
       <Contact />
 
       <div className='footer'>
-        <img src ={Slogo} id='si'/>
+        <img src={Slogo} id='si' />
         <h3>Suzette Islam</h3>
       </div>
 
