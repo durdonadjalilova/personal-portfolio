@@ -21,7 +21,7 @@ const projects = [
         title: 'Pantry Party', 
         description: 'A live stream cooking application where users can upload recipes and host a virutal show.',
         github:'https://www.github.com/sislam16/Pantry-Party',
-        live:'#'
+        live:'https://pantry-party.herokuapp.com/'
     }
 
 ]
