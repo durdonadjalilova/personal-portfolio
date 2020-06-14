@@ -5,7 +5,6 @@ import About from './components/About';
 import Contact from './components/Contact';
 import DisplayProjects from './components/DisplayProjects';
 import Slogo from './additional/si.png';
-import NavBar from './components/NavBar';
 
 function App() {
   return (

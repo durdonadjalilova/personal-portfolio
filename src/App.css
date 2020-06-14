@@ -7,7 +7,7 @@ html, body {
   padding-top:5%;
   width: 100vw;
   height: 90vh;
-  background-color: #191970;
+  background-color: #FADA5E;
 }
 
 #greeting{
@@ -77,7 +77,7 @@ margin:0;
   height: 100vh;
 }
 .skillsText{
-  background-color: #4169e1;
+  background-color: #eb9605;
   height: 100vh;
 }
 .skillsIcon{
@@ -96,7 +96,7 @@ margin:0;
   display: grid;
   grid-template-rows:30% 70%;
   /* background-color:  white; */
-  background-color: #191970;
+  background-color: #FADA5E;
   height: 95vh;
 }
 
