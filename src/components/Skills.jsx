@@ -6,7 +6,6 @@ const Skills = () => (
         <div className='skillsText'>
             <h1>SKILLS</h1>
             <p>Technologies I work with:</p>
-            <a href = '#contact'>Contact</a>
         </div>
 
         <div className='skillsIcon'>

@@ -15,17 +15,12 @@ const About = () => {
         window.open(url, '_blank')
     }
 
-    // const resume =() =>{
-    //     const url = {Resume}
-    //     window.open(url, '_blank')
-    // }
-
     return (
         <div className='aboutSection' id='about'>
             <img src={Selfie} alt='suzette'className='aboutImg' />
 
             <div className='abtTxt'>
-                <p>I'm a full stack web developer based in New York City. </p>
+                <p>I'm a full stack web developer based in New York City.  </p>
                 <div className='links'>
                     <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt='icon' onClick={linkedIn} />
                     <img src="https://img.icons8.com/ios-glyphs/50/000000/github.png" alt='icon' onClick={github}/>

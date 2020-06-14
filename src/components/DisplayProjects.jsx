@@ -7,7 +7,7 @@ const cards = projects.map(el => {
         <div>
             <h2>{el.title}</h2>
             <p>{el.description}</p>
-            <a href={el.github}>GitHub</a>
+            <a href={el.github}>GitHub </a>
             <a href={el.live}>Live</a>
         </div>
 
@@ -20,7 +20,6 @@ const DisplayProjects = () => (
         <p>
             {cards}
         </p>
-        <a href='#skills'>Skills</a>
     </div>
 )
 
