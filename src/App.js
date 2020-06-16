@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <div className='landing' id='landing'>
-        <h1 id='greeting'> Hey! I'm Suzette.</h1>
+        <h1 id='greeting' style={{fontWeight:'bold'}}> Hey! I'm Suzette.</h1>
       </div>
       
       <About />
