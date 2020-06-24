@@ -112,7 +112,6 @@ margin:0;
 .footer{
   display: flex;
   justify-content: space-between; 
-  background-color:rgb(169, 167, 167);
   position: absolute;
   margin-bottom: 0;
   width: 100%;
