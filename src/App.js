@@ -46,7 +46,7 @@ function App() {
         <div className='links'>
           <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt='icon' onClick={linkedIn} />
           <img src="https://img.icons8.com/ios-glyphs/50/000000/github.png" alt='icon' onClick={github} />
-          <a href={Resume} rel ='noopener noreferrer' target='_blank'><img src="https://img.icons8.com/windows/40/000000/file.png" alt='file' /></a>
+          {/* <a href={Resume} rel ='noopener noreferrer' target='_blank'><img src="https://img.icons8.com/windows/40/000000/file.png" alt='file' /></a> */}
 
         </div>
         <img src={Skyline} id='skyline' alt='landing' />
