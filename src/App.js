@@ -35,10 +35,10 @@ function App() {
       <div className='nav'>
         <div className='logo'><img src={Slogo} id='si' alt ='logo'/></div>
         <ul>
-          <li>about</li>
-          <li>projects</li>
-          <li>resume</li>
-          <li>contact</li>
+          <li><a href='#About'>about</a></li>
+          <li><a href='#Projects'>projects</a></li>
+          <li><a href={Resume} rel ='noopener noreferrer' target='_blank'>resume</a></li>
+          <li><a href='#Contact'>contact</a></li>
         </ul>
       </div>
       <div className='landing' id='landing'>
@@ -73,9 +73,9 @@ function App() {
         </div>
       </div>
 
-      <div className='projects-container'>
+      <div className='projects-container' id='Projects'>
         <h1 style={{ textDecoration: 'underline', textDecorationColor: '#EB9605', fontSize: '40px' }}>Projects</h1>
-        <div className='projects' id='Projects'>
+        <div className='projects'>
           {cards}
         </div>
       </div>
