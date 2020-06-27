@@ -124,9 +124,7 @@ input[type=email] {
 }
 
 
-.footer{
-  display: flex;
-  justify-content: space-between; 
+.footer{ 
   position: absolute;
   margin-bottom: 0;
   width: 100%;

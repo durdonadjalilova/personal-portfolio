@@ -34,11 +34,11 @@ function App() {
   return (
     <div className="App">
       <div className='nav'>
-        <div className='logo'><img src={Logo} id='si' alt ='logo' style={{ marginLeft:'10px', height:'50px'}}/></div>
+        <div className='logo'><img src={Logo} id='si' alt='logo' style={{ marginLeft: '10px', height: '50px' }} /></div>
         <ul>
           <li><a href='#About'>about</a></li>
           <li><a href='#Projects'>projects</a></li>
-          <li><a href={Resume} rel ='noopener noreferrer' target='_blank'>resume</a></li>
+          <li><a href={Resume} rel='noopener noreferrer' target='_blank'>resume</a></li>
           <li><a href='#Contact'>contact</a></li>
         </ul>
       </div>
@@ -55,17 +55,17 @@ function App() {
       </div>
 
       <div className='aboutSection' id='About'>
-        <h1 style={{ textDecoration: 'underline', textDecorationColor: '#EB9605', fontSize: '40px' }}>About Me</h1> <br/>
+        <h1 style={{ textDecoration: 'underline', textDecorationColor: '#EB9605', fontSize: '40px' }}>About Me</h1> <br />
 
         <div className='about-container'>
           <div id='img'>
-          <img src={Selfie} alt='suzette' className='aboutImg' />
+            <img src={Selfie} alt='suzette' className='aboutImg' />
           </div>
 
           <div id='txt'>
-          <p>Hey everyone! I'm Suzette, a full stack web developer based in New York City. My journey in tech began when I was exposed to HTML and CSS in middle school. This interest was one that I kept in the back of my mind until I reached college. While I was unable to obtain a Computer Science degree I did extensive research to ensure I accomplished my goal afterwards. I later found Pursuit and was admitted as a Full Stack Web Development Fellow. I am excited to continue learning about the industry and look forward to starting a new chapter as a web developer. Please check out my project below and feel free to contact me via email at <span style={{ fontStyle: 'italic', fontWeight: 'bold' }}>suzetteislam@gmail.com</span> or by filling out the contact form below! </p>
+            <p>Hey everyone! I'm Suzette, a full stack web developer based in New York City. My journey in tech began when I was exposed to HTML and CSS in middle school. This interest was one that I kept in the back of my mind until I reached college. While I was unable to obtain a Computer Science degree I did extensive research to ensure I accomplished my goal afterwards. I later found Pursuit and was admitted as a Full Stack Web Development Fellow. I am excited to continue learning about the industry and look forward to starting a new chapter as a web developer. Please check out my project below and feel free to contact me via email at <span style={{ fontStyle: 'italic', fontWeight: 'bold' }}>suzetteislam@gmail.com</span> or by filling out the contact form below! </p>
           </div>
-       
+
         </div>
 
         <div className='skills'>
@@ -90,7 +90,7 @@ function App() {
             <input type="email" placeholder='Email' /><br />
             <input type="text" placeholder='Message' className='message' />
             <br></br>
-            <button style={{ backgroundColor:'#EB9605', fontSize:'18px', width:'250px', border:'1px black double', fontFamily:'Judson, serif', fontWeight: 'bold' }}>Send!</button>
+            <button style={{ backgroundColor: '#EB9605', fontSize: '18px', width: '250px', border: '1px black double', fontFamily: 'Judson, serif', fontWeight: 'bold' }}>Send!</button>
           </form>
         </div>
       </div>
@@ -99,8 +99,7 @@ function App() {
       {/* <About />*/}
 
       <div className='footer'>
-        <img src={Slogo} id='si' alt ='logo'/>
-        <h3>Suzette Islam</h3>
+        <h3>© Suzette Islam</h3>
       </div>
 
     </div>
