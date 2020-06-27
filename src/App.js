@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Skills from './components/Skills';
-import Slogo from './additional/si.png';
+// import Slogo from './additional/si.png';
 import projects from './components/Projects'
 import Resume from './additional/resume.pdf'
 import Skyline from './additional/nyc.png'
