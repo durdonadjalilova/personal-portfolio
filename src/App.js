@@ -32,6 +32,15 @@ function App() {
 
   return (
     <div className="App">
+      <div className='nav'>
+        <div className='logo'><img src={Slogo} id='si' alt ='logo'/></div>
+        <ul>
+          <li>about</li>
+          <li>projects</li>
+          <li>resume</li>
+          <li>contact</li>
+        </ul>
+      </div>
       <div className='landing' id='landing'>
         <h1 id='greeting' style={{ fontWeight: 'bold' }}>Suzette Islam</h1>
         <div className='links'>

@@ -28,6 +28,21 @@ html, body {
   position: absolute;
 }
 
+.nav{
+display: flex;
+justify-content: space-between;
+}
+
+ul{
+  display: flex;
+  list-style-type: none;
+  margin:0;
+}
+
+ul li{
+  margin-right: 10px;
+}
+
 .aboutSection{
   height: 100vh;
   margin:0;
@@ -126,4 +141,12 @@ input[type=email] {
 .footer h3{
   padding-right: 10px;
   padding-bottom: 4px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    display:inline;
+  }
 }
