@@ -6,6 +6,7 @@ import projects from './components/Projects'
 import Resume from './additional/resume.pdf'
 import Skyline from './additional/nyc.png'
 import Selfie from './additional/Selfie.png'
+import Logo from './additional/white-logo.png'
 
 const cards = projects.map(el => {
   return (
@@ -33,7 +34,7 @@ function App() {
   return (
     <div className="App">
       <div className='nav'>
-        <div className='logo'><img src={Slogo} id='si' alt ='logo'/></div>
+        <div className='logo'><img src={Logo} id='si' alt ='logo' style={{ marginLeft:'10px', height:'50px'}}/></div>
         <ul>
           <li><a href='#About'>about</a></li>
           <li><a href='#Projects'>projects</a></li>
