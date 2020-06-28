@@ -69,7 +69,8 @@ function App() {
         </div>
 
         <div className='skills'>
-          <h3 id='technologies' style={{ textDecoration: 'underline', textDecorationColor: '#EB9605', fontSize: '22px' }}>Technologies I've worked with:</h3>
+          <div><h3 id='technologies' style={{ textDecoration: 'underline', textDecorationColor: '#EB9605', fontSize: '22px' }}>Technologies I've worked with:</h3></div>
+          <br/>
           <Skills />
         </div>
       </div>

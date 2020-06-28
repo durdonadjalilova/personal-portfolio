@@ -31,6 +31,7 @@ html, body {
 .nav{
 display: flex;
 justify-content: space-between;
+
 }
 
 ul{
@@ -66,7 +67,23 @@ ul li{
 }
 
 #technologies{
-  margin-left: 0;
+  float: left;
+  margin:2%;
+}
+.skills {
+  display:grid;
+  grid-template-rows: 1fr, 1fr;
+}
+
+.skillsIcon{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+}
+.skill{
+  justify-content: center;
+  padding:5%;
+  width: 30%;
 }
 .projects-container{
   margin:0;
@@ -85,19 +102,7 @@ ul li{
   height:40vh;
   border:solid 1px black;
 }
-.skillsSection {
-  height: 100vh;
-}
 
-.skillsIcon{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  align-items: center;
-  padding-left: 40px;
-}
-.skill{
-  width: 30%;
-}
 
 .contactSection{
   display: grid;
@@ -143,8 +148,25 @@ input[type=email] {
 
 
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 840px) {
   body {
     display:inline;
   }
+.about-container{
+  display:flex; 
+  flex-flow: column;
+  overflow: auto;
+}
+#txt{
+  margin:auto;
+  padding:2%;
+  text-align: left;
+
+}
+#greeting{
+  font-size: 4em;
+}
+h1{
+  font-size: 18px;
+}
 }
