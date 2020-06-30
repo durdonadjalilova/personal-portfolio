@@ -13,9 +13,9 @@ const cards = projects.map(el => {
     <div className='project-card'>
       <img src = {el.img} alt='project'/>
       <div className='back-card'>
-      <h4>{el.title}</h4>
+      <h2>{el.title}</h2>
       <p>{el.description}</p>
-      <a href={el.github}>GitHub </a>
+      <a href={el.github}>GitHub</a>
       <a href={el.live}>Live</a>
       </div>
       

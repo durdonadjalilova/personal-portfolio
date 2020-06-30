@@ -106,7 +106,7 @@ a:hover{
 }
 .projects-container{
   margin:0;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .projects{
@@ -121,7 +121,7 @@ a:hover{
   position:relative;
   width:50vw;
   height:40vh;
-  border:solid 1px black;
+  /* border:solid 1px black; */
 }
 
 .project-card img{
@@ -149,6 +149,7 @@ a:hover{
 }
 
 .contactSection{
+  margin: 0;
   display: grid;
   grid-template-rows:30% 70%;
   height: 95vh;
