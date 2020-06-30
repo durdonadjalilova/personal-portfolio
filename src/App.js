@@ -100,9 +100,6 @@ function App() {
         </div>
       </div>
 
-
-      {/* <About />*/}
-
       <div className='footer'>
         <h3>© Suzette Islam</h3>
       </div>
