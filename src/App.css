@@ -141,7 +141,7 @@ a:hover{
   position:absolute;
   transition: 'opacity .3s ease-in-out';
   justify-content: center;
-  background-color: rgba(57, 57, 57, .9) ;
+  background-color: rgba(235,150,5,.9);
 }
 
 .back-card:hover{
