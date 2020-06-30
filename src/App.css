@@ -130,11 +130,13 @@ a:hover{
 }
 
 .back-card{
+  color:white;
   top:0;
   left:0;
   width:100%;
   height:100%;
-  display:flex;
+  /* display:flex;
+  flex-direction: column; */
   opacity:0;
   position:absolute;
   transition: 'opacity .3s ease-in-out';
@@ -142,7 +144,7 @@ a:hover{
   background-color: rgba(57, 57, 57, .9) ;
 }
 
-.project-card:hover{
+.back-card:hover{
   opacity: 1;
 }
 
