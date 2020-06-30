@@ -11,7 +11,7 @@ html, body {
 
 #greeting{
   margin-top:10%;
-  font-size: 8em;
+  font-size: 10em;
   text-decoration: underline;
   text-decoration-color: #EB9605;
 }
@@ -45,9 +45,22 @@ ul{
 }
 
 ul li{
+  font-size:18px;
   margin-right: 10px;
 }
 
+a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+a:hover{
+  text-decoration: underline;
+  text-decoration-color: #EB9605;
+  bottom:1px;
+  transition: all 0.5s ease-in-out 0s;
+}
 .aboutSection{
   height: 100vh;
   margin:0;
