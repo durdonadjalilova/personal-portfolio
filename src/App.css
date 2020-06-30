@@ -139,7 +139,7 @@ a:hover{
   flex-direction: column; */
   opacity:0;
   position:absolute;
-  transition: 'opacity .3s ease-in-out';
+  transition: opacity .5s ease-in-out;
   justify-content: center;
   background-color: rgba(235,150,5,.9);
 }
