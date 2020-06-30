@@ -88,6 +88,7 @@ a:hover{
   margin:2%;
 }
 .skills {
+  margin-top: 4%;
   display:grid;
   grid-template-rows: 1fr, 1fr;
 }
@@ -112,15 +113,38 @@ a:hover{
   display:grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  
+  /* margin-left: 5%;
+  margin-right:5%; */
 }
 
 .project-card{
+  position:relative;
   width:50vw;
   height:40vh;
   border:solid 1px black;
 }
 
+.project-card img{
+  height:100%;
+  width: 100%;
+}
+
+.back-card{
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display:flex;
+  opacity:0;
+  position:absolute;
+  transition: 'opacity .3s ease-in-out';
+  justify-content: center;
+  background-color: rgba(57, 57, 57, .9) ;
+}
+
+.project-card:hover{
+  opacity: 1;
+}
 
 .contactSection{
   display: grid;

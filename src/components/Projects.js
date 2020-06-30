@@ -1,5 +1,6 @@
 const projects = [
     {
+        img:require('../additional/blackjack.png'),
         title: 'Simply 21',
         description: 'A web Black Jack game built using the Deck Of Cards API that allows users to play against the computer. The App allows users to draw cards, hit or stay, draws cards for the computer, whoever’s score is closest to 21 wins.',
         github: '',
@@ -17,7 +18,8 @@ const projects = [
         github:'',
         live:'#'
     }, 
-    {
+    {   
+        img:require('../additional/pantry-party.png'),
         title: 'Pantry Party', 
         description: 'A live stream cooking application where users can upload recipes and host a virutal show.',
         github:'https://www.github.com/sislam16/Pantry-Party',

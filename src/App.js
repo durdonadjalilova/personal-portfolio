@@ -11,10 +11,14 @@ import Logo from './additional/white-logo.png'
 const cards = projects.map(el => {
   return (
     <div className='project-card'>
+      <img src = {el.img} alt='project'/>
+      <div className='back-card'>
       <h4>{el.title}</h4>
       <p>{el.description}</p>
       <a href={el.github}>GitHub </a>
       <a href={el.live}>Live</a>
+      </div>
+      
     </div>
 
   )
