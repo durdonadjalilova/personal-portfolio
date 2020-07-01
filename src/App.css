@@ -45,7 +45,7 @@ ul{
 }
 
 ul li{
-  
+
   font-size:20px;
   margin-right: 20px;
 }
@@ -198,6 +198,10 @@ input[type=email] {
   body {
     display:inline;
   }
+  
+.aboutSection{
+  margin-top: -120px;
+}
 .about-container{
   display:flex; 
   flex-flow: column;
@@ -210,9 +214,23 @@ input[type=email] {
 
 }
 #greeting{
+  margin-top: 50%;
   font-size: 4em;
 }
 h1{
   font-size: 18px;
+}
+/* .projects-container{
+  display:flex;
+  flex-direction: column;
+} */
+.skills{
+  display: flex;
+  flex-direction: column;
+}
+.projects{
+  display:flex;
+  flex-direction: column;
+  width:100%;
 }
 }
