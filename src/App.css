@@ -198,7 +198,9 @@ input[type=email] {
   body {
     display:inline;
   }
-  
+ ul li{
+  font-size: 16px;
+  }
 .aboutSection{
   margin-top: -140px;
 }
@@ -216,17 +218,24 @@ input[type=email] {
 #greeting{
   margin-top: 50%;
   font-size: 5em;
+  font-weight: bold;
 }
 h1{
   font-size: 18px;
+  font-weight: bold;
 }
-/* .projects-container{
-  display:flex;
-  flex-direction: column;
-} */
 .skills{
   display: flex;
   flex-direction: column;
+}
+.skillsIcon{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-content: center;
+}
+.projects-container{
+ margin-top: 20%;
 }
 .projects{
   display:flex;
