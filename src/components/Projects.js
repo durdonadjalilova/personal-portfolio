@@ -6,10 +6,10 @@ const projects = [
         github:'https://www.github.com/sislam16/Pantry-Party',
         live:'https://pantry-party.herokuapp.com/'
     },
-    {
-        img:require('../additional/blackjack.png'),
-        title: 'Simply 21',
-        description: 'A web Black Jack game built using the Deck Of Cards API that allows users to play against the computer. The App allows users to draw cards, hit or stay, draws cards for the computer, whoever’s score is closest to 21 wins.',
+    {   
+        img:'#',
+        title: 'TV Show Watchlist App',
+        description: 'TV Show Watchlist will be a full-stack application where users can post, comment on, and favorite TV shows that they are binging on.',
         github: '#',
         live: '#'
     },
@@ -20,13 +20,13 @@ const projects = [
         github:'#',
         live:'#'
     },
-    {   
-        img:'#',
-        title: 'TV Show Watchlist App',
-        description: 'TV Show Watchlist will be a full-stack application where users can post, comment on, and favorite TV shows that they are binging on.',
+    {
+        img:require('../additional/blackjack.png'),
+        title: 'Simply 21',
+        description: 'A web Black Jack game built using the Deck Of Cards API that allows users to play against the computer. The App allows users to draw cards, hit or stay, draws cards for the computer, whoever’s score is closest to 21 wins.',
         github: '#',
         live: '#'
-    },
+    }
     
 ]
 
