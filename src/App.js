@@ -38,7 +38,7 @@ function App() {
   return (
     <div className="App">
       <div className='nav'>
-        <div className='logo'><img src={Logo} id='si' alt='logo' style={{ marginLeft: '10px', height: '50px' }} /></div>
+        <div className='logo'><img src={Logo} id='si' alt='logo' style={{ marginLeft: '10px', height: '50px', marginTop:'5%' }} /></div>
         <ul>
           <li><a href='#About'>about</a></li>
           <li><a href='#Projects'>projects</a></li>
