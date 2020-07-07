@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import Skills from './components/Skills';
 import projects from './components/Projects'
-import Resume from './additional/resume.pdf'
 import Skyline from './additional/nyc.png'
 import Selfie from './additional/Selfie.png'
 import Logo from './additional/white-logo.png'
@@ -41,7 +40,7 @@ function App() {
         <ul>
           <li><a href='#About'>about</a></li>
           <li><a href='#Projects'>projects</a></li>
-          <li><a href={Resume} rel='noopener noreferrer' target='_blank'>resume</a></li>
+          <li><a href='https://docs.google.com/document/d/1olqMt-NTNXJhUp2B9XQXgX8z_4Pnz5Cs1PKyxLAmZvM/edit?usp=sharing' rel='noopener noreferrer' target='_blank'>resume</a></li>
           <li><a href='#Contact'>contact</a></li>
         </ul>
       </div>
