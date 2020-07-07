@@ -14,7 +14,7 @@ const projects = [
         live: '#'
     },
     {
-        img:'#',
+        img:require('../additional/ytRemake.png'),
         title:'YouTube React Remake', 
         description:'YouTube client application that allows users to search for videos, watch a video and leave a comment for it.',
         github:'#',
