@@ -100,8 +100,9 @@ function App() {
         </div>
       </div>
 
-      <div className='footer'>
-        <h3>© Suzette Islam</h3>
+      <div className='footer' style={{display:'flex', justifyContent:'space-between'}}>
+        <p style={{marginLeft:'2%'}}>© Suzette Islam</p>
+        <p style={{marginRight:'2%'}}>Thank you for visiting!</p>
       </div>
 
     </div>
