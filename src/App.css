@@ -194,7 +194,7 @@ input[type=email] {
 
 
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 850px) {
   body {
     display:inline;
   }
@@ -231,6 +231,7 @@ h1{
 .skills{
   display: flex;
   flex-direction: column;
+  /* margin-bottom: 5%; */
 }
 .skillsIcon{
   display: grid;
