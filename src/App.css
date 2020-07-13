@@ -17,9 +17,13 @@ html, body {
 }
 .icon{
   width: auto;
-  height: 50px;
+  height: 40px;
 }
 
+.icon:hover{
+  fill:#EB9605;
+  transition: all 0.3s ease-in-out 0s;
+}
 #skyline{
   width: 100vw;
   height:auto;
@@ -41,11 +45,9 @@ width:100vw;
 ul{
   display: flex;
   list-style-type: none;
-  /* margin:0; */
 }
 
 ul li{
-
   font-size:20px;
   margin-right: 20px;
 }
@@ -71,17 +73,19 @@ a:hover{
   display: grid;
   grid-template-columns: 50% 50%;
   text-align: center;
+  margin-bottom: 5%;
 }
 
 .aboutImg{ 
-  width: 60%;
+  width: 70%;
   border: 4px double #EB9605;
   border-radius: 20%;
 }
 
 #txt{
-  margin-top:30px;
-  margin-right:100px;
+  font-size: 18px;
+  margin-top:5%;
+  padding-right:15%;
 }
 
 #technologies{
@@ -94,16 +98,20 @@ a:hover{
   grid-template-rows: 1fr, 1fr;
 }
 
+.skill-container p{
+  font-weight: bold;
+  text-decoration: underline #EB9605;
+}
 .skillsIcon{
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   justify-content: center;
   align-content: center;
 }
 .skill{
-  padding:5%;
+  /* padding:5%; */
   margin:auto;
-  width: 30%;
+  width: 50%;
 }
 .projects-container{
   margin:0;
@@ -157,6 +165,8 @@ a:hover{
 }
 
 input[type=text] {
+  font-family: 'Judson', serif; 
+  font-weight: bold;
   width: 60%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -164,6 +174,17 @@ input[type=text] {
 }
 
 input[type=email] {
+  font-family: 'Judson', serif; 
+  font-weight: bold;
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+textarea{
+  font-family: 'Judson', serif;
+  font-weight: bold; 
   width: 60%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -202,7 +223,7 @@ input[type=email] {
   font-size: 16px;
   }
 .aboutSection{
-  margin-top: -140px;
+  margin-top: -130px;
 }
 .about-container{
   display:flex; 
@@ -231,7 +252,7 @@ h1{
 .skills{
   display: flex;
   flex-direction: column;
-  /* margin-bottom: 5%; */
+  /* margin-bottom: 25%; */
 }
 .skillsIcon{
   display: grid;
@@ -240,7 +261,62 @@ h1{
   align-content: center;
 }
 .projects-container{
- margin-top: 20%;
+ margin-top: 70%;
+}
+.projects{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+}
+}
+
+@media screen and (max-width: 620px) {
+  body {
+    display:inline;
+  }
+ ul li{
+  font-size: 16px;
+  }
+.aboutSection{
+  margin-top: -130px;
+}
+.about-container{
+  display:flex; 
+  flex-flow: column;
+  overflow: auto;
+}
+#txt{
+  margin:auto;
+  padding:2%;
+  text-align: left;
+
+}
+#greeting{
+  margin-top: 50%;
+  font-size: 5em;
+  font-weight: bold;
+}
+h1{
+  font-size: 18px;
+  font-weight: bold;
+}
+.links{
+  display: flex;
+  justify-content: center;
+}
+.skills{
+  display: flex;
+  flex-direction: column;
+  /* margin-bottom: 10%; */
+}
+.skillsIcon{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-content: center;
+}
+.projects-container{
+ margin-top: 110%;
 }
 .projects{
   display:flex;
