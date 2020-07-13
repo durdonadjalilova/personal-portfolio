@@ -152,7 +152,13 @@ a:hover{
   justify-content: center;
   background-color: rgba(235,150,5,.9);
 }
-
+.back-card h2{
+  margin-top:8%;
+}
+.back-card p{
+  padding-left: 5%;
+  padding-right: 5%;
+}
 .back-card:hover{
   opacity: 1;
 }
