@@ -7,7 +7,7 @@ const projects = [
         live:'https://pantry-party.herokuapp.com/'
     },
     {   
-        img:'#',
+        img:require('../additional/binge-it.png'),
         title: 'binge-it',
         description: 'binge-it is a full-stack application where users can post, comment on, and favorite TV shows that they are binging on.',
         github: 'https://github.com/sislam16/Binge-it',
