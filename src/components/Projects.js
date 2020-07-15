@@ -22,10 +22,10 @@ const projects = [
     },
     {
         img:require('../additional/blackjack.png'),
-        title: 'Simply 21',
-        description: 'A web Black Jack game built using the Deck Of Cards API that allows users to play against the computer. The App allows users to draw cards, hit or stay, draws cards for the computer, whoever’s score is closest to 21 wins.',
+        title: 'Blackjack',
+        description: 'A web Blackjack game built using the Deck Of Cards API that allows users to play against the computer. The App allows users to draw cards, hit or stay, draws cards for the computer, whoever’s score is closest to 21 wins.',
         github: 'https://github.com/sislam16/21-web-game',
-        live: '#'
+        live: 'https://sislam16.github.io/blackjack/ '
     }
     
 ]
