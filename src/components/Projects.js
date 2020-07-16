@@ -17,8 +17,8 @@ const projects = [
         img:require('../additional/ytRemake.png'),
         title:'YouTube React Remake', 
         description:'YouTube client application that allows users to search for videos, watch a video and leave a comment for it.',
-        github:'https://github.com/sislam16/Pursuit-Core-Web-Unit-4-Assessment',
-        live:'#'
+        github:'https://github.com/sislam16/youtube-remake',
+        live:'https://youtube-react-remake.netlify.app/'
     },
     {
         img:require('../additional/blackjack.png'),
