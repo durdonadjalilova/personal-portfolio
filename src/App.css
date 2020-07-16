@@ -218,6 +218,10 @@ textarea{
   padding-right: 10px;
   padding-bottom: 4px;
 }
+.back-card{
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+}
 
 .back-card a{
   color: white;
