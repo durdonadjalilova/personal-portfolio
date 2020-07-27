@@ -104,7 +104,7 @@ function App() {
           <form className='contact' action="https://formspree.io/xoqlkzqz" method="POST">
             <input type='text' placeholder='Name' name='Name' /><br />
             <input type="email" placeholder='Email' /><br />
-            <textarea placeholder='Message' className='message' ></textarea>
+            <textarea placeholder='Message' className='message' name='message'></textarea>
             {/* <input type="textarea" placeholder='Message' className='message' /> */}
             <br></br>
             <button style={{ backgroundColor: '#EB9605', fontSize: '18px', width: '250px', border: '1px black double', fontFamily: 'Judson, serif', fontWeight: 'bold' }}>Send!</button>
