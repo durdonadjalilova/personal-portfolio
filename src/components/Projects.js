@@ -11,7 +11,7 @@ const projects = [
         title: 'binge-it',
         description: 'binge-it is a full-stack application where users can post, comment on, and favorite TV shows that they are binging on.',
         github: 'https://github.com/sislam16/Binge-it',
-        live: '#'
+        live: 'https://binge-it-app.herokuapp.com/'
     },
     {
         img:require('../additional/ytRemake.png'),
