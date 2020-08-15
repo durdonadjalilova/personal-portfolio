@@ -1,5 +1,4 @@
 html, body {
-  /* font-family: 'Poppins', sans-serif; */
   font-family: 'Judson', serif;
   text-align: center;
   height:100%;
@@ -131,7 +130,6 @@ a:hover{
   position:relative;
   width:50vw;
   height:40vh;
-  /* border:solid 1px black; */
 }
 
 .project-card img{
@@ -145,8 +143,6 @@ a:hover{
   left:0;
   width:100%;
   height:100%;
-  /* display:flex;
-  flex-direction: column; */
   opacity:0;
   position:absolute;
   transition: opacity .5s ease-in-out;
@@ -274,7 +270,6 @@ h1{
 .skills{
   display: flex;
   flex-direction: column;
-  /* margin-bottom: 25%; */
 }
 .skillsIcon{
   display: grid;
@@ -294,68 +289,66 @@ h1{
 
 @media screen and (max-width: 620px) {
   body {
-    display:inline;
+      display:inline;
+    }
+  ul li{
+    font-size: 16px;
+    }
+  .aboutSection{
+    margin-top: -130px;
   }
- ul li{
-  font-size: 16px;
+  .about-container{
+    display:flex; 
+    flex-flow: column;
+    overflow: auto;
   }
-.aboutSection{
-  margin-top: -130px;
-}
-.about-container{
-  display:flex; 
-  flex-flow: column;
-  overflow: auto;
-}
-#txt{
-  margin:auto;
-  padding:2%;
-  text-align: left;
+  #txt{
+    margin:auto;
+    padding:2%;
+    text-align: left;
 
-}
-#greeting{
-  margin-top: 50%;
-  font-size: 5em;
-  font-weight: bold;
-}
-h1{
-  font-size: 18px;
-  font-weight: bold;
-}
-.links{
-  display: flex;
-  justify-content: center;
-}
-.skills{
-  display: flex;
-  flex-direction: column;
-  /* margin-bottom: 10%; */
-}
-.skillsIcon{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-content: center;
-  align-content: center;
-}
-.projects-container{
- margin-top: 110%;
-}
-.projects{
-  display:flex;
-  flex-direction: column;
-  width:100%;
-}
+  }
+  #greeting{
+    margin-top: 50%;
+    font-size: 5em;
+    font-weight: bold;
+  }
+  h1{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .links{
+    display: flex;
+    justify-content: center;
+  }
+  .skills{
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 10%; */
+  }
+  .skillsIcon{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-content: center;
+  }
+  .projects-container{
+  margin-top: 110%;
+  }
+  .projects{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+  }
 
-.project-card{
-  position:relative;
-  width:100vw;
-  height:40vh;
-  /* margin-bottom: 1%; */
-  /* border:solid 1px black; */
-}
+  .project-card{
+    position:relative;
+    width:100vw;
+    height:40vh;
+  }
 
-.project-card img{
-  height:100%;
-  width: 100%;
-}
+  .project-card img{
+    height:100%;
+    width: 100%;
+  }
 }
