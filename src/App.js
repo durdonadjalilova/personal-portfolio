@@ -18,8 +18,8 @@ const cards = projects.map(el => {
           <p>{el.description}</p>
         </div>
         <div>
-          <a href={el.github}>GitHub</a>
-          <a href={el.live}>Live</a>
+          <a href={el.github} target='_blank'>GitHub</a>
+          <a href={el.live} target='_blank'>Live</a>
         </div>
 
       </div>
