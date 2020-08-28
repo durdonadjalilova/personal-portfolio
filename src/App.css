@@ -109,21 +109,17 @@ a:hover{
   align-content: center;
 }
 .skill{
-  /* padding:5%; */
   margin:auto;
   width: 50%;
 }
 .projects-container{
   margin:0;
-  /* height: 100vh; */
 }
 
 .projects{
   display:grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  /* margin-left: 5%;
-  margin-right:5%; */
 }
 
 .project-card{
@@ -197,7 +193,6 @@ textarea{
 .message{
   height:100px;
 }
-
 
 .footer{ 
   position: absolute;
